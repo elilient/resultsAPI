@@ -8,3 +8,5 @@ Maven
 
 ## Docker
 ```docker build -t results-api . && docker run -p 8888:8888 --name results-container --network mynetwork results-api ```
+
+PS! Ei saanud dockeriga resultsAPIt tööle. Lokaalselt jooksutada (kasutasin IntelliJ), siis töötas.
