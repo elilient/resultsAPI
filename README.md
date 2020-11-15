@@ -7,4 +7,4 @@ Maven
 ```mvn spring-boot:build-image```
 
 ## Docker
-```docker run --publish 8888:8888 docker.io/library/springboot:0.0.1-SNAPSHOT```
+```docker build -t results-api . && docker run -p 8888:8888 --name results-container --network mynetwork results-api ```
